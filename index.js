@@ -4,7 +4,7 @@ const request = require("request");
 const moment = require("moment");
 const client = new Discord.Client();
 
-const prefix = "-";
+const prefix = "!";
 
 client.on("message", async function(message) {
 	if(message.author.bot) return;
